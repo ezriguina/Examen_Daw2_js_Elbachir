@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Daw2 desarrolo en entorno cliente , Elbachir</title>
+</head>
+<body>
+    <h2>Buscar un caracter</h2>
+    
+    <form id="searchForm" style="border: solid 1px black;">
+        <label for="text">Introduce el texto (al menos 2 palabras):</label>
+        <input type="text" id="text" required>
+        <br><br>
+        
+        <label for="character">Introduce un carácter (solo letras):</label>
+        <input type="text" id="character" maxlength="1" required>
+        <br><br>
+        
+        <button type="button" onclick="buscarPalabras()">Buscar</button>
+    </form>
+    
+    <p id="message"></p>
+    <ul id="lista_resultat"></ul>
+
+    <script src="Examen_opA.js"> </script>
+</body>
+</html>
